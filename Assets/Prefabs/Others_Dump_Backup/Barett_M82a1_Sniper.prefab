@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1699834354928598}
+  m_IsPrefabAsset: 1
+--- !u!1 &1158784786251272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4231642896132090}
+  - component: {fileID: 33760161661602540}
+  - component: {fileID: 23329150642139226}
+  - component: {fileID: 111239778287975268}
+  m_Layer: 0
+  m_Name: Barett_M82A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1699834354928598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813490041973308}
+  - component: {fileID: 114440406594247960}
+  - component: {fileID: 114375983795429288}
+  m_Layer: 0
+  m_Name: Barett_M82a1_Sniper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4231642896132090
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158784786251272}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.00038106542, y: 0.25199997, z: -0.40899998}
+  m_LocalScale: {x: 100, y: 99.99997, z: 99.99997}
+  m_Children: []
+  m_Father: {fileID: 4813490041973308}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4813490041973308
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699834354928598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0.729}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children:
+  - {fileID: 4231642896132090}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23329150642139226
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158784786251272}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 4e036aa1077ce2d4cbb5c4835172c4c7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33760161661602540
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158784786251272}
+  m_Mesh: {fileID: 4300000, guid: f61bcdad0b5878042848361051e63054, type: 3}
+--- !u!111 &111239778287975268
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158784786251272}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114375983795429288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699834354928598}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716e09af0dd19e34db6effc48215fa46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: M40A5
+  fpWeaponPrefab: {fileID: 1411867189119638, guid: 265f351971df9404cb43086667742344,
+    type: 2}
+  tpWeaponPrefab: {fileID: 1923425055534784, guid: 40c89d6a45d44c245a091cac8b3fc992,
+    type: 2}
+  aimingTransform: {fileID: 0}
+  runSideBobSpeed: 0.2
+  runSideBobAmount: 0.07
+  runVectRotation: {x: 16, y: -42, z: 15}
+  swayAmount: 0.2
+  swaySmoothness: 1
+  maxSwayAmount: 0.21
+  smoothRotation: 1
+  tiltAngle: 20
+  firstPersonAnims:
+  - anim: {fileID: 7400004, guid: b80f9301e16f9154fa0fd1fc886c202c, type: 3}
+    animSpeed: 1.2
+  - anim: {fileID: 7400000, guid: b80f9301e16f9154fa0fd1fc886c202c, type: 3}
+    animSpeed: 0.2
+  - anim: {fileID: 7400000, guid: 57f809db2098e08468b13b6fd9dce3eb, type: 2}
+    animSpeed: 1.2
+  - anim: {fileID: 7400000, guid: ed7d296a6acf4a64c882a5195431615d, type: 2}
+    animSpeed: 0.8
+  - anim: {fileID: 7400000, guid: acae4d071efdb484783ffd6f9edc900e, type: 2}
+    animSpeed: 1
+  selectAnimIndex: 0
+  stillAnimIndex: 1
+  fireAnimIndex: 2
+  reloadNormalAnimIndex: 3
+  reloadFullAnimIndex: 4
+  bHasFullReloadAnim: 1
+  selectAnimSpeedMultiplier: 1
+  stillAnimSpeedMultiplier: 1
+  fireAnimSpeedMultiplier: 1.5
+  reloadNormalAnimSpeedMultiplier: 1
+  reloadFullAnimSpeedMultiplier: 1.2
+  fireRate: 0
+  bodyDamage: 98
+  headShotDamage: 220
+  defaultAmmo: 5
+  currentAmmo: 0
+  maxAmmo: 40
+  currentMaxAmmo: 0
+--- !u!114 &114440406594247960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699834354928598}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716e09af0dd19e34db6effc48215fa46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: L96
+  fpWeaponPrefab: {fileID: 1043219144797546, guid: 89366462a9c95da46a2f30fef7d5223e,
+    type: 2}
+  tpWeaponPrefab: {fileID: 1528339289517970, guid: f3ac87034709adb498973a252bb99f15,
+    type: 2}
+  aimingTransform: {fileID: 0}
+  runSideBobSpeed: 0.2
+  runSideBobAmount: 0.07
+  runVectRotation: {x: 16, y: -42, z: 15}
+  swayAmount: 0.2
+  swaySmoothness: 1
+  maxSwayAmount: 0.21
+  smoothRotation: 1
+  tiltAngle: 20
+  firstPersonAnims:
+  - anim: {fileID: 7400000, guid: 2e5e18d621c51174b859104e9f4e5dd5, type: 3}
+    animSpeed: 1.3
+  - anim: {fileID: 7400008, guid: 2e5e18d621c51174b859104e9f4e5dd5, type: 3}
+    animSpeed: 0.5
+  - anim: {fileID: 7400000, guid: 6584e8ef7fd901e4f8e260303e558f07, type: 2}
+    animSpeed: 1.5
+  - anim: {fileID: 7400000, guid: 6f1d33523fa88df40b09cbca86b6f62c, type: 2}
+    animSpeed: 1.2
+  - anim: {fileID: 7400000, guid: 6f1d33523fa88df40b09cbca86b6f62c, type: 2}
+    animSpeed: 1.2
+  selectAnimIndex: 0
+  stillAnimIndex: 1
+  fireAnimIndex: 2
+  reloadNormalAnimIndex: 3
+  reloadFullAnimIndex: 4
+  bHasFullReloadAnim: 0
+  selectAnimSpeedMultiplier: 1
+  stillAnimSpeedMultiplier: 1
+  fireAnimSpeedMultiplier: 1.3
+  reloadNormalAnimSpeedMultiplier: 1.2
+  reloadFullAnimSpeedMultiplier: 1.2
+  fireRate: 0
+  bodyDamage: 110
+  headShotDamage: 450
+  defaultAmmo: 10
+  currentAmmo: 0
+  maxAmmo: 50
+  currentMaxAmmo: 0

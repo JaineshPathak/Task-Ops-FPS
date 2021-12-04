@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763834002, guid: 5b00bf8b25851d440940a40ec23344f4, type: 3}
+  m_Name: BoltPrefabDatabase
+  m_EditorClassIdentifier: 
+  DatabaseMode: 0
+  Prefabs:
+  - {fileID: 0}
+  - {fileID: 1689947504155548, guid: 51976b6323050664ea8e5d637516e69f, type: 3}
+  - {fileID: 1917682950241812, guid: fe8cf49bafd93134fb75a988abb28352, type: 3}
+  - {fileID: 1361644290694356, guid: bbba494f489756a4aa5ca63e77b1ee94, type: 3}
+  - {fileID: 1700969425848564, guid: 2e3f3c36c3434dc49af11991bf9c9b51, type: 3}
+  - {fileID: 1907058658246030, guid: 76f38959b43a4c04d89e0794732742ad, type: 3}
+  - {fileID: 1329824319416222, guid: cc20703da311f3140bda5a9bb33eaf8c, type: 3}
+  - {fileID: 1329824319416222, guid: 70f387851b42ba446a5845c849fc15d5, type: 3}
+  - {fileID: 1917682950241812, guid: 61ee58d59e2ccdc489fe796e5c6d4911, type: 3}
+  - {fileID: 1803712386413224, guid: 2f8e3f6ab6f527a49999e95f47aabbd3, type: 3}
+  - {fileID: 100094, guid: dff296f12d6973b44a2d6c383e217f76, type: 3}

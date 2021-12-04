@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 70c580cf17bb5e34681ccb16a59b6d7f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BACK_BOLTS
+    100002: BARREL
+    100004: BODY
+    100006: BOLT
+    100008: //RootNode
+    100010: MAG_TRIGGER
+    100012: SCOPE
+    100014: SCOPE_MEASURE
+    400000: BACK_BOLTS
+    400002: BARREL
+    400004: BODY
+    400006: BOLT
+    400008: //RootNode
+    400010: MAG_TRIGGER
+    400012: SCOPE
+    400014: SCOPE_MEASURE
+    2100000: Back_Bolts_Mat
+    2100002: Barrel_Mat
+    2100004: Body_Mat
+    2100006: Bolt_Mat
+    2100008: Mag_Trigger_Mat
+    2100010: Scope_Mat
+    2100012: Scope_Measure_Mat
+    2300000: BACK_BOLTS
+    2300002: BARREL
+    2300004: BODY
+    2300006: BOLT
+    2300008: MAG_TRIGGER
+    2300010: SCOPE
+    2300012: SCOPE_MEASURE
+    3300000: BACK_BOLTS
+    3300002: BARREL
+    3300004: BODY
+    3300006: BOLT
+    3300008: MAG_TRIGGER
+    3300010: SCOPE
+    3300012: SCOPE_MEASURE
+    4300000: BACK_BOLTS
+    4300002: BARREL
+    4300004: BODY
+    4300006: BOLT
+    4300008: MAG_TRIGGER
+    4300010: SCOPE
+    4300012: SCOPE_MEASURE
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Bolts_Mat
+    second: {fileID: 2100000, guid: cd2c718a014ad494b8b048cf5085808b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_Mat
+    second: {fileID: 2100000, guid: 7c401c770062aa646b8ab53eb7e7f1fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat
+    second: {fileID: 2100000, guid: b245011ee84159c429883a26e8c82d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt_Mat
+    second: {fileID: 2100000, guid: 601d61a10713a4e4da56dac2e1543aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mag_Trigger_Mat
+    second: {fileID: 2100000, guid: 2ed1c00cccef1ae4f95febe08acb9c1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope_Mat
+    second: {fileID: 2100000, guid: 2f8870a5ab088624288c46e803756d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope_Measure_Mat
+    second: {fileID: 2100000, guid: cc7fd40d6aa863142a65ff0cb92457ac, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

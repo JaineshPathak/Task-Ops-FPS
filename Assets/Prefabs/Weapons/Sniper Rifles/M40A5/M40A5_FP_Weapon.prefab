@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1534290579640446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4115854766885248}
+  - component: {fileID: 114622372438278404}
+  m_Layer: 0
+  m_Name: M40A5_FP_Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4115854766885248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534290579640446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114622372438278404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534290579640446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94539e68b14df147af74019ed59be7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 4
+  weaponName: M40A5
+  weaponIcon: {fileID: 21300000, guid: e68b9ad5b59bf9f42bf3bdb063b3f214, type: 3}
+  fpWeaponPrefab: {fileID: 1411867189119638, guid: 265f351971df9404cb43086667742344,
+    type: 3}
+  tpWeaponPrefab: {fileID: 1923425055534784, guid: 40c89d6a45d44c245a091cac8b3fc992,
+    type: 3}
+  tpWeaponInfo: {fileID: 0}
+  aimingTransform: {fileID: 0}
+  runSideBobSpeed: 0.17
+  runSideBobAmount: 0.1
+  crouchSideBobSpeed: 0.05
+  crouchSideBobAmount: 0.03
+  runVectRotation: {x: 16, y: -42, z: 15}
+  swayAmount: 0.2
+  swaySmoothness: 1
+  maxSwayAmount: 0.21
+  smoothRotation: 1
+  tiltAngle: 20
+  firstPersonAnims:
+  - anim: {fileID: 7400004, guid: b80f9301e16f9154fa0fd1fc886c202c, type: 3}
+    animSpeed: 1.2
+  - anim: {fileID: 7400000, guid: b80f9301e16f9154fa0fd1fc886c202c, type: 3}
+    animSpeed: 0.2
+  - anim: {fileID: 7400000, guid: 57f809db2098e08468b13b6fd9dce3eb, type: 2}
+    animSpeed: 1.2
+  - anim: {fileID: 7400000, guid: ed7d296a6acf4a64c882a5195431615d, type: 2}
+    animSpeed: 0.8
+  - anim: {fileID: 7400000, guid: acae4d071efdb484783ffd6f9edc900e, type: 2}
+    animSpeed: 1
+  selectAnimIndex: 0
+  stillAnimIndex: 1
+  fireAnimIndex: 2
+  reloadNormalAnimIndex: 3
+  reloadFullAnimIndex: 4
+  bHasFullReloadAnim: 0
+  selectAnimSpeedMultiplier: 1
+  stillAnimSpeedMultiplier: 1
+  fireAnimSpeedMultiplier: 1.5
+  reloadNormalAnimSpeedMultiplier: 1
+  reloadFullAnimSpeedMultiplier: 1.2
+  bulletSpreadFactor: 0.1
+  fireTimer: 0
+  fireRate: 0
+  bodyDamage: 98
+  headShotDamage: 220
+  handDamage: 60
+  legDamage: 70
+  muzzleFlashTimer: 0.02
+  muzzlePoint_TP: {fileID: 0}
+  muzzlePoint_FP: {fileID: 0}
+  defaultAmmo: 5
+  currentAmmo: 0
+  maxAmmo: 40
+  currentMaxAmmo: 0
+  recoil: 0
+  maxRecoilXY: {x: -5, y: 0}
+  recoilSpeed: 8
+  ironSightOffset: {x: -0.271, y: 0.055, z: -0.25}
+  ironSightSpeed: 2
+  ironSightFlag: 0
+  zoomFOV: 12
+  scopeDelayTime: 0.15
+  zoomSpeed: 6
+  scopeUI: {fileID: 1967331374981532, guid: 1d136d3314fdc1b46951ed51be1562c5, type: 3}
+  hitLayerMask:
+    serializedVersion: 2
+    m_Bits: 311
+  projectileBullet: {fileID: 1431988795207154, guid: ab88f224f48db784ca3f0a942c12c853,
+    type: 3}
+  pooledProjectileBullets: []
+  bulletPower: 200

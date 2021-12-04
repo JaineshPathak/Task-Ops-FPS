@@ -1,0 +1,1269 @@
+fileFormatVersion: 2
+guid: 264a5ae173b678f4d970842d8dca194e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AWP
+    100002: Bolt
+    100004: Bolt_Back
+    100006: Bolt_Back_end
+    100008: Bolt_end
+    100010: f_index_01.L
+    100012: f_index_01.R
+    100014: f_index_02.L
+    100016: f_index_02.R
+    100018: f_index_03.L
+    100020: f_index_03.L_end
+    100022: f_index_03.R
+    100024: f_index_03.R_end
+    100026: f_middle_01.L
+    100028: f_middle_01.R
+    100030: f_middle_02.L
+    100032: f_middle_02.R
+    100034: f_middle_03.L
+    100036: f_middle_03.L_end
+    100038: f_middle_03.R
+    100040: f_middle_03.R_end
+    100042: f_pinky_01.L
+    100044: f_pinky_01.R
+    100046: f_pinky_02.L
+    100048: f_pinky_02.R
+    100050: f_pinky_03.L
+    100052: f_pinky_03.L_end
+    100054: f_pinky_03.R
+    100056: f_pinky_03.R_end
+    100058: f_ring_01.L
+    100060: f_ring_01.R
+    100062: f_ring_02.L
+    100064: f_ring_02.R
+    100066: f_ring_03.L
+    100068: f_ring_03.L_end
+    100070: f_ring_03.R
+    100072: f_ring_03.R_end
+    100074: forearm.L
+    100076: forearm.R
+    100078: forearm01.L
+    100080: forearm01.L_end
+    100082: forearm01.R
+    100084: forearm01.R_end
+    100086: forearm02.L
+    100088: forearm02.L_end
+    100090: forearm02.R
+    100092: forearm02.R_end
+    100094: FPS_Hands
+    100096: Full_Weapon_Rig
+    100098: hand.L
+    100100: hand.R
+    100102: hand_IK.L
+    100104: hand_IK.L_end
+    100106: hand_IK.R
+    100108: hand_IK.R_end
+    100110: //RootNode
+    100112: Magazine
+    100114: Magazine_end
+    100116: palm_01.L
+    100118: palm_01.R
+    100120: palm_02.L
+    100122: palm_02.R
+    100124: palm_03.L
+    100126: palm_03.R
+    100128: palm_04.L
+    100130: palm_04.R
+    100132: ROOT
+    100134: rot_arm.L
+    100136: rot_arm.L_end
+    100138: rot_arm.R
+    100140: rot_arm.R_end
+    100142: shoulder.L
+    100144: shoulder.R
+    100146: thumb_01.L
+    100148: thumb_01.R
+    100150: thumb_02.L
+    100152: thumb_02.R
+    100154: thumb_03.L
+    100156: thumb_03.L_end
+    100158: thumb_03.R
+    100160: thumb_03.R_end
+    100162: Trigger
+    100164: Trigger_end
+    100166: upper_arm.L
+    100168: upper_arm.R
+    100170: upper_arm_IK.L
+    100172: upper_arm_IK.L_end
+    100174: upper_arm_IK.R
+    100176: upper_arm_IK.R_end
+    100178: Weapon
+    100180: Scope_glass
+    400000: AWP
+    400002: Bolt
+    400004: Bolt_Back
+    400006: Bolt_Back_end
+    400008: Bolt_end
+    400010: f_index_01.L
+    400012: f_index_01.R
+    400014: f_index_02.L
+    400016: f_index_02.R
+    400018: f_index_03.L
+    400020: f_index_03.L_end
+    400022: f_index_03.R
+    400024: f_index_03.R_end
+    400026: f_middle_01.L
+    400028: f_middle_01.R
+    400030: f_middle_02.L
+    400032: f_middle_02.R
+    400034: f_middle_03.L
+    400036: f_middle_03.L_end
+    400038: f_middle_03.R
+    400040: f_middle_03.R_end
+    400042: f_pinky_01.L
+    400044: f_pinky_01.R
+    400046: f_pinky_02.L
+    400048: f_pinky_02.R
+    400050: f_pinky_03.L
+    400052: f_pinky_03.L_end
+    400054: f_pinky_03.R
+    400056: f_pinky_03.R_end
+    400058: f_ring_01.L
+    400060: f_ring_01.R
+    400062: f_ring_02.L
+    400064: f_ring_02.R
+    400066: f_ring_03.L
+    400068: f_ring_03.L_end
+    400070: f_ring_03.R
+    400072: f_ring_03.R_end
+    400074: forearm.L
+    400076: forearm.R
+    400078: forearm01.L
+    400080: forearm01.L_end
+    400082: forearm01.R
+    400084: forearm01.R_end
+    400086: forearm02.L
+    400088: forearm02.L_end
+    400090: forearm02.R
+    400092: forearm02.R_end
+    400094: FPS_Hands
+    400096: Full_Weapon_Rig
+    400098: hand.L
+    400100: hand.R
+    400102: hand_IK.L
+    400104: hand_IK.L_end
+    400106: hand_IK.R
+    400108: hand_IK.R_end
+    400110: //RootNode
+    400112: Magazine
+    400114: Magazine_end
+    400116: palm_01.L
+    400118: palm_01.R
+    400120: palm_02.L
+    400122: palm_02.R
+    400124: palm_03.L
+    400126: palm_03.R
+    400128: palm_04.L
+    400130: palm_04.R
+    400132: ROOT
+    400134: rot_arm.L
+    400136: rot_arm.L_end
+    400138: rot_arm.R
+    400140: rot_arm.R_end
+    400142: shoulder.L
+    400144: shoulder.R
+    400146: thumb_01.L
+    400148: thumb_01.R
+    400150: thumb_02.L
+    400152: thumb_02.R
+    400154: thumb_03.L
+    400156: thumb_03.L_end
+    400158: thumb_03.R
+    400160: thumb_03.R_end
+    400162: Trigger
+    400164: Trigger_end
+    400166: upper_arm.L
+    400168: upper_arm.R
+    400170: upper_arm_IK.L
+    400172: upper_arm_IK.L_end
+    400174: upper_arm_IK.R
+    400176: upper_arm_IK.R_end
+    400178: Weapon
+    400180: Scope_glass
+    2100000: L96Body_Mat
+    2100002: Hands_Mat
+    2100004: L96_Scope_Mat
+    2300000: AWP
+    2300002: FPS_Hands
+    2300004: Scope_glass
+    3300000: AWP
+    3300002: FPS_Hands
+    3300004: Scope_glass
+    4300000: AWP
+    4300002: FPS_Hands
+    4300004: Scope_glass
+    7400000: Full_Weapon_Rig|Fire_Anim
+    7400002: L96_Select2
+    7400004: Full_Weapon_Rig|PoseLib
+    7400006: Full_Weapon_Rig|Fire_Anim //// Full_Weapon_Rig
+    7400008: Full_Weapon_Rig|L96_Weapon_Rig //// Full_Weapon_Rig
+    7400010: Full_Weapon_Rig|PoseLib //// Full_Weapon_Rig
+    7400012: L96_Still2
+    7400014: L96_Fire2
+    7400016: L96_Reload2
+    7400018: L96_Select2 //// Full_Weapon_Rig
+    7400020: L96_Still2 //// Full_Weapon_Rig
+    7400022: L96_Fire2 //// Full_Weapon_Rig
+    7400024: L96_Reload2 //// Full_Weapon_Rig
+    7400026: L96_Select2 //// Full_Weapon_Rig
+    7400028: L96_Still2 //// Full_Weapon_Rig
+    7400030: L96_Fire2 //// Full_Weapon_Rig
+    7400032: L96_Reload2 //// Full_Weapon_Rig
+    7400034: L96_Select2 //// Full_Weapon_Rig
+    7400036: L96_Still2 //// Full_Weapon_Rig
+    7400038: L96_Fire2 //// Full_Weapon_Rig
+    7400040: L96_Reload2 //// Full_Weapon_Rig
+    7400042: L96_Select2 //// upper_arm_IK.L
+    7400044: L96_Still2 //// upper_arm_IK.L
+    7400046: L96_Fire2 //// upper_arm_IK.L
+    7400048: L96_Reload2 //// upper_arm_IK.L
+    7400050: L96_Select2 //// upper_arm_IK.R
+    7400052: L96_Still2 //// upper_arm_IK.R
+    7400054: L96_Fire2 //// upper_arm_IK.R
+    7400056: L96_Reload2 //// upper_arm_IK.R
+    7400058: L96_Select2 //// hand_IK.R
+    7400060: L96_Still2 //// hand_IK.R
+    7400062: L96_Fire2 //// hand_IK.R
+    7400064: L96_Reload2 //// hand_IK.R
+    7400066: L96_Select2 //// hand_IK.L
+    7400068: L96_Still2 //// hand_IK.L
+    7400070: L96_Fire2 //// hand_IK.L
+    7400072: L96_Reload2 //// hand_IK.L
+    7400074: L96_Select2 //// ROOT
+    7400076: L96_Still2 //// ROOT
+    7400078: L96_Fire2 //// ROOT
+    7400080: L96_Reload2 //// ROOT
+    7400082: L96_Select2 //// shoulder.L
+    7400084: L96_Still2 //// shoulder.L
+    7400086: L96_Fire2 //// shoulder.L
+    7400088: L96_Reload2 //// shoulder.L
+    7400090: L96_Select2 //// upper_arm.L
+    7400092: L96_Still2 //// upper_arm.L
+    7400094: L96_Fire2 //// upper_arm.L
+    7400096: L96_Reload2 //// upper_arm.L
+    7400098: L96_Select2 //// forearm.L
+    7400100: L96_Still2 //// forearm.L
+    7400102: L96_Fire2 //// forearm.L
+    7400104: L96_Reload2 //// forearm.L
+    7400106: L96_Select2 //// forearm02.L
+    7400108: L96_Still2 //// forearm02.L
+    7400110: L96_Fire2 //// forearm02.L
+    7400112: L96_Reload2 //// forearm02.L
+    7400114: L96_Select2 //// forearm01.L
+    7400116: L96_Still2 //// forearm01.L
+    7400118: L96_Fire2 //// forearm01.L
+    7400120: L96_Reload2 //// forearm01.L
+    7400122: L96_Select2 //// hand.L
+    7400124: L96_Still2 //// hand.L
+    7400126: L96_Fire2 //// hand.L
+    7400128: L96_Reload2 //// hand.L
+    7400130: L96_Select2 //// palm_01.L
+    7400132: L96_Still2 //// palm_01.L
+    7400134: L96_Fire2 //// palm_01.L
+    7400136: L96_Reload2 //// palm_01.L
+    7400138: L96_Select2 //// f_index_01.L
+    7400140: L96_Still2 //// f_index_01.L
+    7400142: L96_Fire2 //// f_index_01.L
+    7400144: L96_Reload2 //// f_index_01.L
+    7400146: L96_Select2 //// f_index_02.L
+    7400148: L96_Still2 //// f_index_02.L
+    7400150: L96_Fire2 //// f_index_02.L
+    7400152: L96_Reload2 //// f_index_02.L
+    7400154: L96_Select2 //// f_index_03.L
+    7400156: L96_Still2 //// f_index_03.L
+    7400158: L96_Fire2 //// f_index_03.L
+    7400160: L96_Reload2 //// f_index_03.L
+    7400162: L96_Select2 //// palm_04.L
+    7400164: L96_Still2 //// palm_04.L
+    7400166: L96_Fire2 //// palm_04.L
+    7400168: L96_Reload2 //// palm_04.L
+    7400170: L96_Select2 //// f_pinky_01.L
+    7400172: L96_Still2 //// f_pinky_01.L
+    7400174: L96_Fire2 //// f_pinky_01.L
+    7400176: L96_Reload2 //// f_pinky_01.L
+    7400178: L96_Select2 //// f_pinky_02.L
+    7400180: L96_Still2 //// f_pinky_02.L
+    7400182: L96_Fire2 //// f_pinky_02.L
+    7400184: L96_Reload2 //// f_pinky_02.L
+    7400186: L96_Select2 //// f_pinky_03.L
+    7400188: L96_Still2 //// f_pinky_03.L
+    7400190: L96_Fire2 //// f_pinky_03.L
+    7400192: L96_Reload2 //// f_pinky_03.L
+    7400194: L96_Select2 //// palm_02.L
+    7400196: L96_Still2 //// palm_02.L
+    7400198: L96_Fire2 //// palm_02.L
+    7400200: L96_Reload2 //// palm_02.L
+    7400202: L96_Select2 //// f_middle_01.L
+    7400204: L96_Still2 //// f_middle_01.L
+    7400206: L96_Fire2 //// f_middle_01.L
+    7400208: L96_Reload2 //// f_middle_01.L
+    7400210: L96_Select2 //// f_middle_02.L
+    7400212: L96_Still2 //// f_middle_02.L
+    7400214: L96_Fire2 //// f_middle_02.L
+    7400216: L96_Reload2 //// f_middle_02.L
+    7400218: L96_Select2 //// f_middle_03.L
+    7400220: L96_Still2 //// f_middle_03.L
+    7400222: L96_Fire2 //// f_middle_03.L
+    7400224: L96_Reload2 //// f_middle_03.L
+    7400226: L96_Select2 //// palm_03.L
+    7400228: L96_Still2 //// palm_03.L
+    7400230: L96_Fire2 //// palm_03.L
+    7400232: L96_Reload2 //// palm_03.L
+    7400234: L96_Select2 //// f_ring_01.L
+    7400236: L96_Still2 //// f_ring_01.L
+    7400238: L96_Fire2 //// f_ring_01.L
+    7400240: L96_Reload2 //// f_ring_01.L
+    7400242: L96_Select2 //// f_ring_02.L
+    7400244: L96_Still2 //// f_ring_02.L
+    7400246: L96_Fire2 //// f_ring_02.L
+    7400248: L96_Reload2 //// f_ring_02.L
+    7400250: L96_Select2 //// f_ring_03.L
+    7400252: L96_Still2 //// f_ring_03.L
+    7400254: L96_Fire2 //// f_ring_03.L
+    7400256: L96_Reload2 //// f_ring_03.L
+    7400258: L96_Select2 //// thumb_01.L
+    7400260: L96_Still2 //// thumb_01.L
+    7400262: L96_Fire2 //// thumb_01.L
+    7400264: L96_Reload2 //// thumb_01.L
+    7400266: L96_Select2 //// thumb_02.L
+    7400268: L96_Still2 //// thumb_02.L
+    7400270: L96_Fire2 //// thumb_02.L
+    7400272: L96_Reload2 //// thumb_02.L
+    7400274: L96_Select2 //// thumb_03.L
+    7400276: L96_Still2 //// thumb_03.L
+    7400278: L96_Fire2 //// thumb_03.L
+    7400280: L96_Reload2 //// thumb_03.L
+    7400282: L96_Select2 //// rot_arm.L
+    7400284: L96_Still2 //// rot_arm.L
+    7400286: L96_Fire2 //// rot_arm.L
+    7400288: L96_Reload2 //// rot_arm.L
+    7400290: L96_Select2 //// shoulder.R
+    7400292: L96_Still2 //// shoulder.R
+    7400294: L96_Fire2 //// shoulder.R
+    7400296: L96_Reload2 //// shoulder.R
+    7400298: L96_Select2 //// upper_arm.R
+    7400300: L96_Still2 //// upper_arm.R
+    7400302: L96_Fire2 //// upper_arm.R
+    7400304: L96_Reload2 //// upper_arm.R
+    7400306: L96_Select2 //// forearm.R
+    7400308: L96_Still2 //// forearm.R
+    7400310: L96_Fire2 //// forearm.R
+    7400312: L96_Reload2 //// forearm.R
+    7400314: L96_Select2 //// forearm02.R
+    7400316: L96_Still2 //// forearm02.R
+    7400318: L96_Fire2 //// forearm02.R
+    7400320: L96_Reload2 //// forearm02.R
+    7400322: L96_Select2 //// forearm01.R
+    7400324: L96_Still2 //// forearm01.R
+    7400326: L96_Fire2 //// forearm01.R
+    7400328: L96_Reload2 //// forearm01.R
+    7400330: L96_Select2 //// hand.R
+    7400332: L96_Still2 //// hand.R
+    7400334: L96_Fire2 //// hand.R
+    7400336: L96_Reload2 //// hand.R
+    7400338: L96_Select2 //// palm_01.R
+    7400340: L96_Still2 //// palm_01.R
+    7400342: L96_Fire2 //// palm_01.R
+    7400344: L96_Reload2 //// palm_01.R
+    7400346: L96_Select2 //// f_index_01.R
+    7400348: L96_Still2 //// f_index_01.R
+    7400350: L96_Fire2 //// f_index_01.R
+    7400352: L96_Reload2 //// f_index_01.R
+    7400354: L96_Select2 //// f_index_02.R
+    7400356: L96_Still2 //// f_index_02.R
+    7400358: L96_Fire2 //// f_index_02.R
+    7400360: L96_Reload2 //// f_index_02.R
+    7400362: L96_Select2 //// f_index_03.R
+    7400364: L96_Still2 //// f_index_03.R
+    7400366: L96_Fire2 //// f_index_03.R
+    7400368: L96_Reload2 //// f_index_03.R
+    7400370: L96_Select2 //// palm_04.R
+    7400372: L96_Still2 //// palm_04.R
+    7400374: L96_Fire2 //// palm_04.R
+    7400376: L96_Reload2 //// palm_04.R
+    7400378: L96_Select2 //// f_pinky_01.R
+    7400380: L96_Still2 //// f_pinky_01.R
+    7400382: L96_Fire2 //// f_pinky_01.R
+    7400384: L96_Reload2 //// f_pinky_01.R
+    7400386: L96_Select2 //// f_pinky_02.R
+    7400388: L96_Still2 //// f_pinky_02.R
+    7400390: L96_Fire2 //// f_pinky_02.R
+    7400392: L96_Reload2 //// f_pinky_02.R
+    7400394: L96_Select2 //// f_pinky_03.R
+    7400396: L96_Still2 //// f_pinky_03.R
+    7400398: L96_Fire2 //// f_pinky_03.R
+    7400400: L96_Reload2 //// f_pinky_03.R
+    7400402: L96_Select2 //// palm_02.R
+    7400404: L96_Still2 //// palm_02.R
+    7400406: L96_Fire2 //// palm_02.R
+    7400408: L96_Reload2 //// palm_02.R
+    7400410: L96_Select2 //// f_middle_01.R
+    7400412: L96_Still2 //// f_middle_01.R
+    7400414: L96_Fire2 //// f_middle_01.R
+    7400416: L96_Reload2 //// f_middle_01.R
+    7400418: L96_Select2 //// f_middle_02.R
+    7400420: L96_Still2 //// f_middle_02.R
+    7400422: L96_Fire2 //// f_middle_02.R
+    7400424: L96_Reload2 //// f_middle_02.R
+    7400426: L96_Select2 //// f_middle_03.R
+    7400428: L96_Still2 //// f_middle_03.R
+    7400430: L96_Fire2 //// f_middle_03.R
+    7400432: L96_Reload2 //// f_middle_03.R
+    7400434: L96_Select2 //// palm_03.R
+    7400436: L96_Still2 //// palm_03.R
+    7400438: L96_Fire2 //// palm_03.R
+    7400440: L96_Reload2 //// palm_03.R
+    7400442: L96_Select2 //// f_ring_01.R
+    7400444: L96_Still2 //// f_ring_01.R
+    7400446: L96_Fire2 //// f_ring_01.R
+    7400448: L96_Reload2 //// f_ring_01.R
+    7400450: L96_Select2 //// f_ring_02.R
+    7400452: L96_Still2 //// f_ring_02.R
+    7400454: L96_Fire2 //// f_ring_02.R
+    7400456: L96_Reload2 //// f_ring_02.R
+    7400458: L96_Select2 //// f_ring_03.R
+    7400460: L96_Still2 //// f_ring_03.R
+    7400462: L96_Fire2 //// f_ring_03.R
+    7400464: L96_Reload2 //// f_ring_03.R
+    7400466: L96_Select2 //// thumb_01.R
+    7400468: L96_Still2 //// thumb_01.R
+    7400470: L96_Fire2 //// thumb_01.R
+    7400472: L96_Reload2 //// thumb_01.R
+    7400474: L96_Select2 //// thumb_02.R
+    7400476: L96_Still2 //// thumb_02.R
+    7400478: L96_Fire2 //// thumb_02.R
+    7400480: L96_Reload2 //// thumb_02.R
+    7400482: L96_Select2 //// thumb_03.R
+    7400484: L96_Still2 //// thumb_03.R
+    7400486: L96_Fire2 //// thumb_03.R
+    7400488: L96_Reload2 //// thumb_03.R
+    7400490: L96_Select2 //// rot_arm.R
+    7400492: L96_Still2 //// rot_arm.R
+    7400494: L96_Fire2 //// rot_arm.R
+    7400496: L96_Reload2 //// rot_arm.R
+    7400498: L96_Select2 //// Weapon
+    7400500: L96_Still2 //// Weapon
+    7400502: L96_Fire2 //// Weapon
+    7400504: L96_Reload2 //// Weapon
+    7400506: L96_Select2 //// Bolt_Back
+    7400508: L96_Still2 //// Bolt_Back
+    7400510: L96_Fire2 //// Bolt_Back
+    7400512: L96_Reload2 //// Bolt_Back
+    7400514: L96_Select2 //// Bolt
+    7400516: L96_Still2 //// Bolt
+    7400518: L96_Fire2 //// Bolt
+    7400520: L96_Reload2 //// Bolt
+    7400522: L96_Select2 //// Trigger
+    7400524: L96_Still2 //// Trigger
+    7400526: L96_Fire2 //// Trigger
+    7400528: L96_Reload2 //// Trigger
+    7400530: L96_Select2 //// Magazine
+    7400532: L96_Still2 //// Magazine
+    7400534: L96_Fire2 //// Magazine
+    7400536: L96_Reload2 //// Magazine
+    7400538: L96_Select2 //// upper_arm_IK.L
+    7400540: L96_Still2 //// upper_arm_IK.L
+    7400542: L96_Fire2 //// upper_arm_IK.L
+    7400544: L96_Reload2 //// upper_arm_IK.L
+    7400546: L96_Select2 //// upper_arm_IK.R
+    7400548: L96_Still2 //// upper_arm_IK.R
+    7400550: L96_Fire2 //// upper_arm_IK.R
+    7400552: L96_Reload2 //// upper_arm_IK.R
+    7400554: L96_Select2 //// hand_IK.R
+    7400556: L96_Still2 //// hand_IK.R
+    7400558: L96_Fire2 //// hand_IK.R
+    7400560: L96_Reload2 //// hand_IK.R
+    7400562: L96_Select2 //// hand_IK.L
+    7400564: L96_Still2 //// hand_IK.L
+    7400566: L96_Fire2 //// hand_IK.L
+    7400568: L96_Reload2 //// hand_IK.L
+    7400570: L96_Select2 //// ROOT
+    7400572: L96_Still2 //// ROOT
+    7400574: L96_Fire2 //// ROOT
+    7400576: L96_Reload2 //// ROOT
+    7400578: L96_Select2 //// shoulder.L
+    7400580: L96_Still2 //// shoulder.L
+    7400582: L96_Fire2 //// shoulder.L
+    7400584: L96_Reload2 //// shoulder.L
+    7400586: L96_Select2 //// upper_arm.L
+    7400588: L96_Still2 //// upper_arm.L
+    7400590: L96_Fire2 //// upper_arm.L
+    7400592: L96_Reload2 //// upper_arm.L
+    7400594: L96_Select2 //// forearm.L
+    7400596: L96_Still2 //// forearm.L
+    7400598: L96_Fire2 //// forearm.L
+    7400600: L96_Reload2 //// forearm.L
+    7400602: L96_Select2 //// forearm02.L
+    7400604: L96_Still2 //// forearm02.L
+    7400606: L96_Fire2 //// forearm02.L
+    7400608: L96_Reload2 //// forearm02.L
+    7400610: L96_Select2 //// forearm01.L
+    7400612: L96_Still2 //// forearm01.L
+    7400614: L96_Fire2 //// forearm01.L
+    7400616: L96_Reload2 //// forearm01.L
+    7400618: L96_Select2 //// hand.L
+    7400620: L96_Still2 //// hand.L
+    7400622: L96_Fire2 //// hand.L
+    7400624: L96_Reload2 //// hand.L
+    7400626: L96_Select2 //// palm_01.L
+    7400628: L96_Still2 //// palm_01.L
+    7400630: L96_Fire2 //// palm_01.L
+    7400632: L96_Reload2 //// palm_01.L
+    7400634: L96_Select2 //// f_index_01.L
+    7400636: L96_Still2 //// f_index_01.L
+    7400638: L96_Fire2 //// f_index_01.L
+    7400640: L96_Reload2 //// f_index_01.L
+    7400642: L96_Select2 //// f_index_02.L
+    7400644: L96_Still2 //// f_index_02.L
+    7400646: L96_Fire2 //// f_index_02.L
+    7400648: L96_Reload2 //// f_index_02.L
+    7400650: L96_Select2 //// f_index_03.L
+    7400652: L96_Still2 //// f_index_03.L
+    7400654: L96_Fire2 //// f_index_03.L
+    7400656: L96_Reload2 //// f_index_03.L
+    7400658: L96_Select2 //// palm_04.L
+    7400660: L96_Still2 //// palm_04.L
+    7400662: L96_Fire2 //// palm_04.L
+    7400664: L96_Reload2 //// palm_04.L
+    7400666: L96_Select2 //// f_pinky_01.L
+    7400668: L96_Still2 //// f_pinky_01.L
+    7400670: L96_Fire2 //// f_pinky_01.L
+    7400672: L96_Reload2 //// f_pinky_01.L
+    7400674: L96_Select2 //// f_pinky_02.L
+    7400676: L96_Still2 //// f_pinky_02.L
+    7400678: L96_Fire2 //// f_pinky_02.L
+    7400680: L96_Reload2 //// f_pinky_02.L
+    7400682: L96_Select2 //// f_pinky_03.L
+    7400684: L96_Still2 //// f_pinky_03.L
+    7400686: L96_Fire2 //// f_pinky_03.L
+    7400688: L96_Reload2 //// f_pinky_03.L
+    7400690: L96_Select2 //// palm_02.L
+    7400692: L96_Still2 //// palm_02.L
+    7400694: L96_Fire2 //// palm_02.L
+    7400696: L96_Reload2 //// palm_02.L
+    7400698: L96_Select2 //// f_middle_01.L
+    7400700: L96_Still2 //// f_middle_01.L
+    7400702: L96_Fire2 //// f_middle_01.L
+    7400704: L96_Reload2 //// f_middle_01.L
+    7400706: L96_Select2 //// f_middle_02.L
+    7400708: L96_Still2 //// f_middle_02.L
+    7400710: L96_Fire2 //// f_middle_02.L
+    7400712: L96_Reload2 //// f_middle_02.L
+    7400714: L96_Select2 //// f_middle_03.L
+    7400716: L96_Still2 //// f_middle_03.L
+    7400718: L96_Fire2 //// f_middle_03.L
+    7400720: L96_Reload2 //// f_middle_03.L
+    7400722: L96_Select2 //// palm_03.L
+    7400724: L96_Still2 //// palm_03.L
+    7400726: L96_Fire2 //// palm_03.L
+    7400728: L96_Reload2 //// palm_03.L
+    7400730: L96_Select2 //// f_ring_01.L
+    7400732: L96_Still2 //// f_ring_01.L
+    7400734: L96_Fire2 //// f_ring_01.L
+    7400736: L96_Reload2 //// f_ring_01.L
+    7400738: L96_Select2 //// f_ring_02.L
+    7400740: L96_Still2 //// f_ring_02.L
+    7400742: L96_Fire2 //// f_ring_02.L
+    7400744: L96_Reload2 //// f_ring_02.L
+    7400746: L96_Select2 //// f_ring_03.L
+    7400748: L96_Still2 //// f_ring_03.L
+    7400750: L96_Fire2 //// f_ring_03.L
+    7400752: L96_Reload2 //// f_ring_03.L
+    7400754: L96_Select2 //// thumb_01.L
+    7400756: L96_Still2 //// thumb_01.L
+    7400758: L96_Fire2 //// thumb_01.L
+    7400760: L96_Reload2 //// thumb_01.L
+    7400762: L96_Select2 //// thumb_02.L
+    7400764: L96_Still2 //// thumb_02.L
+    7400766: L96_Fire2 //// thumb_02.L
+    7400768: L96_Reload2 //// thumb_02.L
+    7400770: L96_Select2 //// thumb_03.L
+    7400772: L96_Still2 //// thumb_03.L
+    7400774: L96_Fire2 //// thumb_03.L
+    7400776: L96_Reload2 //// thumb_03.L
+    7400778: L96_Select2 //// rot_arm.L
+    7400780: L96_Still2 //// rot_arm.L
+    7400782: L96_Fire2 //// rot_arm.L
+    7400784: L96_Reload2 //// rot_arm.L
+    7400786: L96_Select2 //// shoulder.R
+    7400788: L96_Still2 //// shoulder.R
+    7400790: L96_Fire2 //// shoulder.R
+    7400792: L96_Reload2 //// shoulder.R
+    7400794: L96_Select2 //// upper_arm.R
+    7400796: L96_Still2 //// upper_arm.R
+    7400798: L96_Fire2 //// upper_arm.R
+    7400800: L96_Reload2 //// upper_arm.R
+    7400802: L96_Select2 //// forearm.R
+    7400804: L96_Still2 //// forearm.R
+    7400806: L96_Fire2 //// forearm.R
+    7400808: L96_Reload2 //// forearm.R
+    7400810: L96_Select2 //// forearm02.R
+    7400812: L96_Still2 //// forearm02.R
+    7400814: L96_Fire2 //// forearm02.R
+    7400816: L96_Reload2 //// forearm02.R
+    7400818: L96_Select2 //// forearm01.R
+    7400820: L96_Still2 //// forearm01.R
+    7400822: L96_Fire2 //// forearm01.R
+    7400824: L96_Reload2 //// forearm01.R
+    7400826: L96_Select2 //// hand.R
+    7400828: L96_Still2 //// hand.R
+    7400830: L96_Fire2 //// hand.R
+    7400832: L96_Reload2 //// hand.R
+    7400834: L96_Select2 //// palm_01.R
+    7400836: L96_Still2 //// palm_01.R
+    7400838: L96_Fire2 //// palm_01.R
+    7400840: L96_Reload2 //// palm_01.R
+    7400842: L96_Select2 //// f_index_01.R
+    7400844: L96_Still2 //// f_index_01.R
+    7400846: L96_Fire2 //// f_index_01.R
+    7400848: L96_Reload2 //// f_index_01.R
+    7400850: L96_Select2 //// f_index_02.R
+    7400852: L96_Still2 //// f_index_02.R
+    7400854: L96_Fire2 //// f_index_02.R
+    7400856: L96_Reload2 //// f_index_02.R
+    7400858: L96_Select2 //// f_index_03.R
+    7400860: L96_Still2 //// f_index_03.R
+    7400862: L96_Fire2 //// f_index_03.R
+    7400864: L96_Reload2 //// f_index_03.R
+    7400866: L96_Select2 //// palm_04.R
+    7400868: L96_Still2 //// palm_04.R
+    7400870: L96_Fire2 //// palm_04.R
+    7400872: L96_Reload2 //// palm_04.R
+    7400874: L96_Select2 //// f_pinky_01.R
+    7400876: L96_Still2 //// f_pinky_01.R
+    7400878: L96_Fire2 //// f_pinky_01.R
+    7400880: L96_Reload2 //// f_pinky_01.R
+    7400882: L96_Select2 //// f_pinky_02.R
+    7400884: L96_Still2 //// f_pinky_02.R
+    7400886: L96_Fire2 //// f_pinky_02.R
+    7400888: L96_Reload2 //// f_pinky_02.R
+    7400890: L96_Select2 //// f_pinky_03.R
+    7400892: L96_Still2 //// f_pinky_03.R
+    7400894: L96_Fire2 //// f_pinky_03.R
+    7400896: L96_Reload2 //// f_pinky_03.R
+    7400898: L96_Select2 //// palm_02.R
+    7400900: L96_Still2 //// palm_02.R
+    7400902: L96_Fire2 //// palm_02.R
+    7400904: L96_Reload2 //// palm_02.R
+    7400906: L96_Select2 //// f_middle_01.R
+    7400908: L96_Still2 //// f_middle_01.R
+    7400910: L96_Fire2 //// f_middle_01.R
+    7400912: L96_Reload2 //// f_middle_01.R
+    7400914: L96_Select2 //// f_middle_02.R
+    7400916: L96_Still2 //// f_middle_02.R
+    7400918: L96_Fire2 //// f_middle_02.R
+    7400920: L96_Reload2 //// f_middle_02.R
+    7400922: L96_Select2 //// f_middle_03.R
+    7400924: L96_Still2 //// f_middle_03.R
+    7400926: L96_Fire2 //// f_middle_03.R
+    7400928: L96_Reload2 //// f_middle_03.R
+    7400930: L96_Select2 //// palm_03.R
+    7400932: L96_Still2 //// palm_03.R
+    7400934: L96_Fire2 //// palm_03.R
+    7400936: L96_Reload2 //// palm_03.R
+    7400938: L96_Select2 //// f_ring_01.R
+    7400940: L96_Still2 //// f_ring_01.R
+    7400942: L96_Fire2 //// f_ring_01.R
+    7400944: L96_Reload2 //// f_ring_01.R
+    7400946: L96_Select2 //// f_ring_02.R
+    7400948: L96_Still2 //// f_ring_02.R
+    7400950: L96_Fire2 //// f_ring_02.R
+    7400952: L96_Reload2 //// f_ring_02.R
+    7400954: L96_Select2 //// f_ring_03.R
+    7400956: L96_Still2 //// f_ring_03.R
+    7400958: L96_Fire2 //// f_ring_03.R
+    7400960: L96_Reload2 //// f_ring_03.R
+    7400962: L96_Select2 //// thumb_01.R
+    7400964: L96_Still2 //// thumb_01.R
+    7400966: L96_Fire2 //// thumb_01.R
+    7400968: L96_Reload2 //// thumb_01.R
+    7400970: L96_Select2 //// thumb_02.R
+    7400972: L96_Still2 //// thumb_02.R
+    7400974: L96_Fire2 //// thumb_02.R
+    7400976: L96_Reload2 //// thumb_02.R
+    7400978: L96_Select2 //// thumb_03.R
+    7400980: L96_Still2 //// thumb_03.R
+    7400982: L96_Fire2 //// thumb_03.R
+    7400984: L96_Reload2 //// thumb_03.R
+    7400986: L96_Select2 //// rot_arm.R
+    7400988: L96_Still2 //// rot_arm.R
+    7400990: L96_Fire2 //// rot_arm.R
+    7400992: L96_Reload2 //// rot_arm.R
+    7400994: L96_Select2 //// Weapon
+    7400996: L96_Still2 //// Weapon
+    7400998: L96_Fire2 //// Weapon
+    7401000: L96_Reload2 //// Weapon
+    7401002: L96_Select2 //// Bolt_Back
+    7401004: L96_Still2 //// Bolt_Back
+    7401006: L96_Fire2 //// Bolt_Back
+    7401008: L96_Reload2 //// Bolt_Back
+    7401010: L96_Select2 //// Bolt
+    7401012: L96_Still2 //// Bolt
+    7401014: L96_Fire2 //// Bolt
+    7401016: L96_Reload2 //// Bolt
+    7401018: L96_Select2 //// Trigger
+    7401020: L96_Still2 //// Trigger
+    7401022: L96_Fire2 //// Trigger
+    7401024: L96_Reload2 //// Trigger
+    7401026: L96_Select2 //// Magazine
+    7401028: L96_Still2 //// Magazine
+    7401030: L96_Fire2 //// Magazine
+    7401032: L96_Reload2 //// Magazine
+    7401034: L96_Select2 //// upper_arm_IK.L
+    7401036: L96_Still2 //// upper_arm_IK.L
+    7401038: L96_Fire2 //// upper_arm_IK.L
+    7401040: L96_Reload2 //// upper_arm_IK.L
+    7401042: L96_Select2 //// upper_arm_IK.R
+    7401044: L96_Still2 //// upper_arm_IK.R
+    7401046: L96_Fire2 //// upper_arm_IK.R
+    7401048: L96_Reload2 //// upper_arm_IK.R
+    7401050: L96_Select2 //// hand_IK.R
+    7401052: L96_Still2 //// hand_IK.R
+    7401054: L96_Fire2 //// hand_IK.R
+    7401056: L96_Reload2 //// hand_IK.R
+    7401058: L96_Select2 //// hand_IK.L
+    7401060: L96_Still2 //// hand_IK.L
+    7401062: L96_Fire2 //// hand_IK.L
+    7401064: L96_Reload2 //// hand_IK.L
+    7401066: L96_Select2 //// ROOT
+    7401068: L96_Still2 //// ROOT
+    7401070: L96_Fire2 //// ROOT
+    7401072: L96_Reload2 //// ROOT
+    7401074: L96_Select2 //// shoulder.L
+    7401076: L96_Still2 //// shoulder.L
+    7401078: L96_Fire2 //// shoulder.L
+    7401080: L96_Reload2 //// shoulder.L
+    7401082: L96_Select2 //// upper_arm.L
+    7401084: L96_Still2 //// upper_arm.L
+    7401086: L96_Fire2 //// upper_arm.L
+    7401088: L96_Reload2 //// upper_arm.L
+    7401090: L96_Select2 //// forearm.L
+    7401092: L96_Still2 //// forearm.L
+    7401094: L96_Fire2 //// forearm.L
+    7401096: L96_Reload2 //// forearm.L
+    7401098: L96_Select2 //// forearm02.L
+    7401100: L96_Still2 //// forearm02.L
+    7401102: L96_Fire2 //// forearm02.L
+    7401104: L96_Reload2 //// forearm02.L
+    7401106: L96_Select2 //// forearm01.L
+    7401108: L96_Still2 //// forearm01.L
+    7401110: L96_Fire2 //// forearm01.L
+    7401112: L96_Reload2 //// forearm01.L
+    7401114: L96_Select2 //// hand.L
+    7401116: L96_Still2 //// hand.L
+    7401118: L96_Fire2 //// hand.L
+    7401120: L96_Reload2 //// hand.L
+    7401122: L96_Select2 //// palm_01.L
+    7401124: L96_Still2 //// palm_01.L
+    7401126: L96_Fire2 //// palm_01.L
+    7401128: L96_Reload2 //// palm_01.L
+    7401130: L96_Select2 //// f_index_01.L
+    7401132: L96_Still2 //// f_index_01.L
+    7401134: L96_Fire2 //// f_index_01.L
+    7401136: L96_Reload2 //// f_index_01.L
+    7401138: L96_Select2 //// f_index_02.L
+    7401140: L96_Still2 //// f_index_02.L
+    7401142: L96_Fire2 //// f_index_02.L
+    7401144: L96_Reload2 //// f_index_02.L
+    7401146: L96_Select2 //// f_index_03.L
+    7401148: L96_Still2 //// f_index_03.L
+    7401150: L96_Fire2 //// f_index_03.L
+    7401152: L96_Reload2 //// f_index_03.L
+    7401154: L96_Select2 //// palm_04.L
+    7401156: L96_Still2 //// palm_04.L
+    7401158: L96_Fire2 //// palm_04.L
+    7401160: L96_Reload2 //// palm_04.L
+    7401162: L96_Select2 //// f_pinky_01.L
+    7401164: L96_Still2 //// f_pinky_01.L
+    7401166: L96_Fire2 //// f_pinky_01.L
+    7401168: L96_Reload2 //// f_pinky_01.L
+    7401170: L96_Select2 //// f_pinky_02.L
+    7401172: L96_Still2 //// f_pinky_02.L
+    7401174: L96_Fire2 //// f_pinky_02.L
+    7401176: L96_Reload2 //// f_pinky_02.L
+    7401178: L96_Select2 //// f_pinky_03.L
+    7401180: L96_Still2 //// f_pinky_03.L
+    7401182: L96_Fire2 //// f_pinky_03.L
+    7401184: L96_Reload2 //// f_pinky_03.L
+    7401186: L96_Select2 //// palm_02.L
+    7401188: L96_Still2 //// palm_02.L
+    7401190: L96_Fire2 //// palm_02.L
+    7401192: L96_Reload2 //// palm_02.L
+    7401194: L96_Select2 //// f_middle_01.L
+    7401196: L96_Still2 //// f_middle_01.L
+    7401198: L96_Fire2 //// f_middle_01.L
+    7401200: L96_Reload2 //// f_middle_01.L
+    7401202: L96_Select2 //// f_middle_02.L
+    7401204: L96_Still2 //// f_middle_02.L
+    7401206: L96_Fire2 //// f_middle_02.L
+    7401208: L96_Reload2 //// f_middle_02.L
+    7401210: L96_Select2 //// f_middle_03.L
+    7401212: L96_Still2 //// f_middle_03.L
+    7401214: L96_Fire2 //// f_middle_03.L
+    7401216: L96_Reload2 //// f_middle_03.L
+    7401218: L96_Select2 //// palm_03.L
+    7401220: L96_Still2 //// palm_03.L
+    7401222: L96_Fire2 //// palm_03.L
+    7401224: L96_Reload2 //// palm_03.L
+    7401226: L96_Select2 //// f_ring_01.L
+    7401228: L96_Still2 //// f_ring_01.L
+    7401230: L96_Fire2 //// f_ring_01.L
+    7401232: L96_Reload2 //// f_ring_01.L
+    7401234: L96_Select2 //// f_ring_02.L
+    7401236: L96_Still2 //// f_ring_02.L
+    7401238: L96_Fire2 //// f_ring_02.L
+    7401240: L96_Reload2 //// f_ring_02.L
+    7401242: L96_Select2 //// f_ring_03.L
+    7401244: L96_Still2 //// f_ring_03.L
+    7401246: L96_Fire2 //// f_ring_03.L
+    7401248: L96_Reload2 //// f_ring_03.L
+    7401250: L96_Select2 //// thumb_01.L
+    7401252: L96_Still2 //// thumb_01.L
+    7401254: L96_Fire2 //// thumb_01.L
+    7401256: L96_Reload2 //// thumb_01.L
+    7401258: L96_Select2 //// thumb_02.L
+    7401260: L96_Still2 //// thumb_02.L
+    7401262: L96_Fire2 //// thumb_02.L
+    7401264: L96_Reload2 //// thumb_02.L
+    7401266: L96_Select2 //// thumb_03.L
+    7401268: L96_Still2 //// thumb_03.L
+    7401270: L96_Fire2 //// thumb_03.L
+    7401272: L96_Reload2 //// thumb_03.L
+    7401274: L96_Select2 //// rot_arm.L
+    7401276: L96_Still2 //// rot_arm.L
+    7401278: L96_Fire2 //// rot_arm.L
+    7401280: L96_Reload2 //// rot_arm.L
+    7401282: L96_Select2 //// shoulder.R
+    7401284: L96_Still2 //// shoulder.R
+    7401286: L96_Fire2 //// shoulder.R
+    7401288: L96_Reload2 //// shoulder.R
+    7401290: L96_Select2 //// upper_arm.R
+    7401292: L96_Still2 //// upper_arm.R
+    7401294: L96_Fire2 //// upper_arm.R
+    7401296: L96_Reload2 //// upper_arm.R
+    7401298: L96_Select2 //// forearm.R
+    7401300: L96_Still2 //// forearm.R
+    7401302: L96_Fire2 //// forearm.R
+    7401304: L96_Reload2 //// forearm.R
+    7401306: L96_Select2 //// forearm02.R
+    7401308: L96_Still2 //// forearm02.R
+    7401310: L96_Fire2 //// forearm02.R
+    7401312: L96_Reload2 //// forearm02.R
+    7401314: L96_Select2 //// forearm01.R
+    7401316: L96_Still2 //// forearm01.R
+    7401318: L96_Fire2 //// forearm01.R
+    7401320: L96_Reload2 //// forearm01.R
+    7401322: L96_Select2 //// hand.R
+    7401324: L96_Still2 //// hand.R
+    7401326: L96_Fire2 //// hand.R
+    7401328: L96_Reload2 //// hand.R
+    7401330: L96_Select2 //// palm_01.R
+    7401332: L96_Still2 //// palm_01.R
+    7401334: L96_Fire2 //// palm_01.R
+    7401336: L96_Reload2 //// palm_01.R
+    7401338: L96_Select2 //// f_index_01.R
+    7401340: L96_Still2 //// f_index_01.R
+    7401342: L96_Fire2 //// f_index_01.R
+    7401344: L96_Reload2 //// f_index_01.R
+    7401346: L96_Select2 //// f_index_02.R
+    7401348: L96_Still2 //// f_index_02.R
+    7401350: L96_Fire2 //// f_index_02.R
+    7401352: L96_Reload2 //// f_index_02.R
+    7401354: L96_Select2 //// f_index_03.R
+    7401356: L96_Still2 //// f_index_03.R
+    7401358: L96_Fire2 //// f_index_03.R
+    7401360: L96_Reload2 //// f_index_03.R
+    7401362: L96_Select2 //// palm_04.R
+    7401364: L96_Still2 //// palm_04.R
+    7401366: L96_Fire2 //// palm_04.R
+    7401368: L96_Reload2 //// palm_04.R
+    7401370: L96_Select2 //// f_pinky_01.R
+    7401372: L96_Still2 //// f_pinky_01.R
+    7401374: L96_Fire2 //// f_pinky_01.R
+    7401376: L96_Reload2 //// f_pinky_01.R
+    7401378: L96_Select2 //// f_pinky_02.R
+    7401380: L96_Still2 //// f_pinky_02.R
+    7401382: L96_Fire2 //// f_pinky_02.R
+    7401384: L96_Reload2 //// f_pinky_02.R
+    7401386: L96_Select2 //// f_pinky_03.R
+    7401388: L96_Still2 //// f_pinky_03.R
+    7401390: L96_Fire2 //// f_pinky_03.R
+    7401392: L96_Reload2 //// f_pinky_03.R
+    7401394: L96_Select2 //// palm_02.R
+    7401396: L96_Still2 //// palm_02.R
+    7401398: L96_Fire2 //// palm_02.R
+    7401400: L96_Reload2 //// palm_02.R
+    7401402: L96_Select2 //// f_middle_01.R
+    7401404: L96_Still2 //// f_middle_01.R
+    7401406: L96_Fire2 //// f_middle_01.R
+    7401408: L96_Reload2 //// f_middle_01.R
+    7401410: L96_Select2 //// f_middle_02.R
+    7401412: L96_Still2 //// f_middle_02.R
+    7401414: L96_Fire2 //// f_middle_02.R
+    7401416: L96_Reload2 //// f_middle_02.R
+    7401418: L96_Select2 //// f_middle_03.R
+    7401420: L96_Still2 //// f_middle_03.R
+    7401422: L96_Fire2 //// f_middle_03.R
+    7401424: L96_Reload2 //// f_middle_03.R
+    7401426: L96_Select2 //// palm_03.R
+    7401428: L96_Still2 //// palm_03.R
+    7401430: L96_Fire2 //// palm_03.R
+    7401432: L96_Reload2 //// palm_03.R
+    7401434: L96_Select2 //// f_ring_01.R
+    7401436: L96_Still2 //// f_ring_01.R
+    7401438: L96_Fire2 //// f_ring_01.R
+    7401440: L96_Reload2 //// f_ring_01.R
+    7401442: L96_Select2 //// f_ring_02.R
+    7401444: L96_Still2 //// f_ring_02.R
+    7401446: L96_Fire2 //// f_ring_02.R
+    7401448: L96_Reload2 //// f_ring_02.R
+    7401450: L96_Select2 //// f_ring_03.R
+    7401452: L96_Still2 //// f_ring_03.R
+    7401454: L96_Fire2 //// f_ring_03.R
+    7401456: L96_Reload2 //// f_ring_03.R
+    7401458: L96_Select2 //// thumb_01.R
+    7401460: L96_Still2 //// thumb_01.R
+    7401462: L96_Fire2 //// thumb_01.R
+    7401464: L96_Reload2 //// thumb_01.R
+    7401466: L96_Select2 //// thumb_02.R
+    7401468: L96_Still2 //// thumb_02.R
+    7401470: L96_Fire2 //// thumb_02.R
+    7401472: L96_Reload2 //// thumb_02.R
+    7401474: L96_Select2 //// thumb_03.R
+    7401476: L96_Still2 //// thumb_03.R
+    7401478: L96_Fire2 //// thumb_03.R
+    7401480: L96_Reload2 //// thumb_03.R
+    7401482: L96_Select2 //// rot_arm.R
+    7401484: L96_Still2 //// rot_arm.R
+    7401486: L96_Fire2 //// rot_arm.R
+    7401488: L96_Reload2 //// rot_arm.R
+    7401490: L96_Select2 //// Weapon
+    7401492: L96_Still2 //// Weapon
+    7401494: L96_Fire2 //// Weapon
+    7401496: L96_Reload2 //// Weapon
+    7401498: L96_Select2 //// Bolt_Back
+    7401500: L96_Still2 //// Bolt_Back
+    7401502: L96_Fire2 //// Bolt_Back
+    7401504: L96_Reload2 //// Bolt_Back
+    7401506: L96_Select2 //// Bolt
+    7401508: L96_Still2 //// Bolt
+    7401510: L96_Fire2 //// Bolt
+    7401512: L96_Reload2 //// Bolt
+    7401514: L96_Select2 //// Trigger
+    7401516: L96_Still2 //// Trigger
+    7401518: L96_Fire2 //// Trigger
+    7401520: L96_Reload2 //// Trigger
+    7401522: L96_Select2 //// Magazine
+    7401524: L96_Still2 //// Magazine
+    7401526: L96_Fire2 //// Magazine
+    7401528: L96_Reload2 //// Magazine
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: AWP
+    11100004: Bolt
+    11100006: Bolt_Back
+    11100008: Bolt_Back_end
+    11100010: Bolt_end
+    11100012: f_index_01.L
+    11100014: f_index_01.R
+    11100016: f_index_02.L
+    11100018: f_index_02.R
+    11100020: f_index_03.L
+    11100022: f_index_03.L_end
+    11100024: f_index_03.R
+    11100026: f_index_03.R_end
+    11100028: f_middle_01.L
+    11100030: f_middle_01.R
+    11100032: f_middle_02.L
+    11100034: f_middle_02.R
+    11100036: f_middle_03.L
+    11100038: f_middle_03.L_end
+    11100040: f_middle_03.R
+    11100042: f_middle_03.R_end
+    11100044: f_pinky_01.L
+    11100046: f_pinky_01.R
+    11100048: f_pinky_02.L
+    11100050: f_pinky_02.R
+    11100052: f_pinky_03.L
+    11100054: f_pinky_03.L_end
+    11100056: f_pinky_03.R
+    11100058: f_pinky_03.R_end
+    11100060: f_ring_01.L
+    11100062: f_ring_01.R
+    11100064: f_ring_02.L
+    11100066: f_ring_02.R
+    11100068: f_ring_03.L
+    11100070: f_ring_03.L_end
+    11100072: f_ring_03.R
+    11100074: f_ring_03.R_end
+    11100076: forearm.L
+    11100078: forearm.R
+    11100080: forearm01.L
+    11100082: forearm01.L_end
+    11100084: forearm01.R
+    11100086: forearm01.R_end
+    11100088: forearm02.L
+    11100090: forearm02.L_end
+    11100092: forearm02.R
+    11100094: forearm02.R_end
+    11100096: FPS_Hands
+    11100098: Full_Weapon_Rig
+    11100100: hand.L
+    11100102: hand.R
+    11100104: hand_IK.L
+    11100106: hand_IK.L_end
+    11100108: hand_IK.R
+    11100110: hand_IK.R_end
+    11100112: Magazine
+    11100114: Magazine_end
+    11100116: palm_01.L
+    11100118: palm_01.R
+    11100120: palm_02.L
+    11100122: palm_02.R
+    11100124: palm_03.L
+    11100126: palm_03.R
+    11100128: palm_04.L
+    11100130: palm_04.R
+    11100132: ROOT
+    11100134: rot_arm.L
+    11100136: rot_arm.L_end
+    11100138: rot_arm.R
+    11100140: rot_arm.R_end
+    11100142: shoulder.L
+    11100144: shoulder.R
+    11100146: thumb_01.L
+    11100148: thumb_01.R
+    11100150: thumb_02.L
+    11100152: thumb_02.R
+    11100154: thumb_03.L
+    11100156: thumb_03.L_end
+    11100158: thumb_03.R
+    11100160: thumb_03.R_end
+    11100162: Trigger
+    11100164: Trigger_end
+    11100166: upper_arm.L
+    11100168: upper_arm.R
+    11100170: upper_arm_IK.L
+    11100172: upper_arm_IK.L_end
+    11100174: upper_arm_IK.R
+    11100176: upper_arm_IK.R_end
+    11100178: Weapon
+    11100180: Scope_glass
+    13700000: AWP
+    13700002: FPS_Hands
+    13700004: Scope_glass
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands_Mat
+    second: {fileID: 2100000, guid: 4a1769f43da0f8443b06d2b6757d45c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L96Body_Mat
+    second: {fileID: 2100000, guid: 2389a17ffb7ef634f9f3309c8b624273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L96_Scope_Mat
+    second: {fileID: 2100000, guid: c528b965e0b2aae41bee2639f4e7bcfb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: L96_Select2
+      takeName: Full_Weapon_Rig|L96_Weapon_Rig
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: L96_Still2
+      takeName: Full_Weapon_Rig|L96_Weapon_Rig
+      firstFrame: 40
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: L96_Fire2
+      takeName: Full_Weapon_Rig|L96_Weapon_Rig
+      firstFrame: 81
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: L96_Reload2
+      takeName: Full_Weapon_Rig|L96_Weapon_Rig
+      firstFrame: 171
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

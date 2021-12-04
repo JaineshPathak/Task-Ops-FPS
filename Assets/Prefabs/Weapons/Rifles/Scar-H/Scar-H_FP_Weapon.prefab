@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &533513633840800081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7704386978287758704}
+  - component: {fileID: -7713091326107827481}
+  m_Layer: 0
+  m_Name: Scar-H_FP_Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7704386978287758704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533513633840800081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7713091326107827481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533513633840800081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f89e29777adf347b106661bfa67568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 3
+  weaponName: SCAR-H
+  weaponIcon: {fileID: 21300000, guid: cbb2447cccc78194b9e823672f8145ad, type: 3}
+  fpWeaponPrefab: {fileID: 4631741532528473402, guid: d07571fb77d064f48905bd88eb849dbf,
+    type: 3}
+  tpWeaponPrefab: {fileID: 2335389690607126147, guid: e84bd5f5e1860c1438367c96cc55043e,
+    type: 3}
+  tpWeaponInfo: {fileID: 0}
+  aimingTransform: {fileID: 0}
+  runSideBobSpeed: 0.17
+  runSideBobAmount: 0.1
+  crouchSideBobSpeed: 0.05
+  crouchSideBobAmount: 0.03
+  aimSideBobSpeed: 0.1
+  aimSideBobAmount: 0.005
+  runVectRotation: {x: 16, y: -42, z: 15}
+  swayAmount: 0.2
+  swaySmoothness: 1
+  maxSwayAmount: 0.21
+  smoothRotation: 1
+  tiltAngle: 20
+  firstPersonAnims:
+  - anim: {fileID: -2738981570015164974, guid: 034166495ac368b45b16fb34e2f4cf05, type: 3}
+    animSpeed: 1.6
+  - anim: {fileID: -6337086826939172956, guid: 034166495ac368b45b16fb34e2f4cf05, type: 3}
+    animSpeed: 0.2
+  - anim: {fileID: 7400000, guid: e017cb4f2d0bca543b54b56e2e9c611a, type: 2}
+    animSpeed: 1.8
+  - anim: {fileID: 7400000, guid: 2d2118b3302531242be024f7b2da9b30, type: 2}
+    animSpeed: 1.8
+  - anim: {fileID: 7400000, guid: 38d10923d816025478a08067cdd6339a, type: 2}
+    animSpeed: 1.4
+  - anim: {fileID: 7400000, guid: a30573171fccc7b449124fc1f785c858, type: 2}
+    animSpeed: 1.4
+  selectAnimIndex: 0
+  stillAnimIndex: 1
+  fireAnimIndex: 2
+  reloadNormalAnimIndex: 4
+  reloadFullAnimIndex: 5
+  bHasFullReloadAnim: 0
+  selectAnimSpeedMultiplier: 1
+  stillAnimSpeedMultiplier: 1
+  fireAnimSpeedMultiplier: 1.2
+  reloadNormalAnimSpeedMultiplier: 1
+  reloadFullAnimSpeedMultiplier: 1
+  bulletSpreadFactor: 0.05
+  fireTimer: 0
+  fireRate: 0.11
+  bodyDamage: 32
+  headShotDamage: 120
+  handDamage: 27
+  legDamage: 26
+  muzzleFlashTimer: 0.02
+  muzzlePoint_TP: {fileID: 0}
+  muzzlePoint_FP: {fileID: 0}
+  defaultAmmo: 20
+  currentAmmo: 0
+  maxAmmo: 300
+  currentMaxAmmo: 0
+  recoil: 0
+  maxRecoilXY: {x: -5, y: 0}
+  recoilSpeed: 10
+  ironSightOffset: {x: -0.27, y: 0.06, z: -0.22}
+  ironSightSpeed: 3
+  ironSightFlag: 0
+  zoomFOV: 45
+  aimScaleOffset: {x: 1, y: 1, z: 0.02}
+  fireAimAnimIndex: 3
+  zoomSpeed: 3
+  aimScaleSpeed: 2
+  hitLayerMask:
+    serializedVersion: 2
+    m_Bits: 311
+  bulletPower: 100
+  bulletHitWallEffect: {fileID: 1097477609810014, guid: caca5aac394f4c04d9a0c27db5d85ef5,
+    type: 3}
+  pooledBulletsHitWallEffects: []
+  fakeBulletObject: {fileID: 1595617163611894, guid: 0d27095eb1f4ac343b1f78d157e62be4,
+    type: 3}
+  pooledFakeBullets: []
+  recoilXY: {x: 0, y: 0}
+  recoilAdder: 0.5

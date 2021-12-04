@@ -1,0 +1,30 @@
+Title: Task Ops TODO LIST
+
+Game: Task Ops
+Author: Jainesh Pathak
+
+1. Import new M40A5 and SVD Dragunov first person anim with better hands
+	- M40A5 (DONE!)
+	- SVD Dragunov (DONE!)
+	- L96 (DONE!)
+	- AK47 (DONE!)
+	- SCAR-H (DONE!)
+2. Import new player models (probably)
+	- Spetsnaz (DONE!)
+	- Delta (DONE!)
+3. User account management
+4. Weapons firing sounds and effects
+	- Mentioned weapons above DONE!
+5. More new Weapons:
+	- Barett M82A1
+	- (List will updated accordingly)
+6. Store players data in server
+7. Re-texture first person hands model
+	- NOT DONE!
+8. Props for level design
+9. Menu UI
+	- Prototype DONE!
+10. Player HUD UI
+	- Health, minimap and Killfeed DONE!
+11. Game Manager
+	- Sort Working DONE!

@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: b80f9301e16f9154fa0fd1fc886c202c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BACK_BOLTS
+    100002: BARREL
+    100004: BODY
+    100006: BOLT
+    100008: Bolt
+    100010: f_index_01_L
+    100012: f_index_01_R
+    100014: f_index_02_L
+    100016: f_index_02_R
+    100018: f_index_03_L
+    100020: f_index_03_R
+    100022: f_middle_01_L
+    100024: f_middle_01_R
+    100026: f_middle_02_L
+    100028: f_middle_02_R
+    100030: f_middle_03_L
+    100032: f_middle_03_R
+    100034: f_pinky_01_L
+    100036: f_pinky_01_R
+    100038: f_pinky_02_L
+    100040: f_pinky_02_R
+    100042: f_pinky_03_L
+    100044: f_pinky_03_R
+    100046: f_ring_01_L
+    100048: f_ring_01_R
+    100050: f_ring_02_L
+    100052: f_ring_02_R
+    100054: f_ring_03_L
+    100056: f_ring_03_R
+    100058: forearm01_L
+    100060: forearm01_R
+    100062: forearm02_L
+    100064: forearm02_R
+    100066: forearm_L
+    100068: forearm_R
+    100070: FPS_Hands
+    100072: Full_Weapon_Rig
+    100074: hand_L
+    100076: hand_R
+    100078: //RootNode
+    100080: MAG_TRIGGER
+    100082: Magazine
+    100084: palm_01_L
+    100086: palm_01_R
+    100088: palm_02_L
+    100090: palm_02_R
+    100092: palm_03_L
+    100094: palm_03_R
+    100096: palm_04_L
+    100098: palm_04_R
+    100100: ROOT
+    100102: SCOPE
+    100104: SCOPE_MEASURE
+    100106: shoulder_L
+    100108: shoulder_R
+    100110: thumb_01_L
+    100112: thumb_01_R
+    100114: thumb_02_L
+    100116: thumb_02_R
+    100118: thumb_03_L
+    100120: thumb_03_R
+    100122: Trigger
+    100124: upper_arm_L
+    100126: upper_arm_R
+    100128: Weapon
+    400000: BACK_BOLTS
+    400002: BARREL
+    400004: BODY
+    400006: BOLT
+    400008: Bolt
+    400010: f_index_01_L
+    400012: f_index_01_R
+    400014: f_index_02_L
+    400016: f_index_02_R
+    400018: f_index_03_L
+    400020: f_index_03_R
+    400022: f_middle_01_L
+    400024: f_middle_01_R
+    400026: f_middle_02_L
+    400028: f_middle_02_R
+    400030: f_middle_03_L
+    400032: f_middle_03_R
+    400034: f_pinky_01_L
+    400036: f_pinky_01_R
+    400038: f_pinky_02_L
+    400040: f_pinky_02_R
+    400042: f_pinky_03_L
+    400044: f_pinky_03_R
+    400046: f_ring_01_L
+    400048: f_ring_01_R
+    400050: f_ring_02_L
+    400052: f_ring_02_R
+    400054: f_ring_03_L
+    400056: f_ring_03_R
+    400058: forearm01_L
+    400060: forearm01_R
+    400062: forearm02_L
+    400064: forearm02_R
+    400066: forearm_L
+    400068: forearm_R
+    400070: FPS_Hands
+    400072: Full_Weapon_Rig
+    400074: hand_L
+    400076: hand_R
+    400078: //RootNode
+    400080: MAG_TRIGGER
+    400082: Magazine
+    400084: palm_01_L
+    400086: palm_01_R
+    400088: palm_02_L
+    400090: palm_02_R
+    400092: palm_03_L
+    400094: palm_03_R
+    400096: palm_04_L
+    400098: palm_04_R
+    400100: ROOT
+    400102: SCOPE
+    400104: SCOPE_MEASURE
+    400106: shoulder_L
+    400108: shoulder_R
+    400110: thumb_01_L
+    400112: thumb_01_R
+    400114: thumb_02_L
+    400116: thumb_02_R
+    400118: thumb_03_L
+    400120: thumb_03_R
+    400122: Trigger
+    400124: upper_arm_L
+    400126: upper_arm_R
+    400128: Weapon
+    2100000: Bolt_Mat__M40A5_Body
+    2100002: Mag_Trigger_Mat__M40A5_Body
+    2100004: Scope_Mat__M40A5_Body
+    2100006: Body_Mat__M40A5_Body
+    2100008: Barrel_Mat__M40A5_Body
+    2100010: Scope_Measure_Mat__M40A5_Body
+    2100012: Back_Bolts_Mat__M40A5_Body
+    2100014: Hands_Mat__Albedo_V2_png
+    4300000: BOLT
+    4300002: MAG_TRIGGER
+    4300004: SCOPE
+    4300006: BODY
+    4300008: BARREL
+    4300010: SCOPE_MEASURE
+    4300012: BACK_BOLTS
+    4300014: FPS_Hands
+    7400000: M40A5_Still_3
+    7400002: Fire_Anim
+    7400004: M40A5_Select_3
+    7400006: PoseLib
+    7400008: M40A5_Fire_3
+    7400010: M40A5_ReloadNormal_3
+    7400012: M40A5_ReloadFull_3
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BACK_BOLTS
+    13700002: BARREL
+    13700004: BODY
+    13700006: BOLT
+    13700008: FPS_Hands
+    13700010: MAG_TRIGGER
+    13700012: SCOPE
+    13700014: SCOPE_MEASURE
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Bolts_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: cd2c718a014ad494b8b048cf5085808b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: 7c401c770062aa646b8ab53eb7e7f1fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: b245011ee84159c429883a26e8c82d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: 601d61a10713a4e4da56dac2e1543aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands_Mat__Albedo_V2_png
+    second: {fileID: 2100000, guid: 4a1769f43da0f8443b06d2b6757d45c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mag_Trigger_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: 2ed1c00cccef1ae4f95febe08acb9c1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: 2f8870a5ab088624288c46e803756d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope_Measure_Mat__M40A5_Body
+    second: {fileID: 2100000, guid: cc7fd40d6aa863142a65ff0cb92457ac, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: M40A5_Select_3
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: M40A5_Still_3
+      takeName: Default Take
+      firstFrame: 40
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: M40A5_Fire_3
+      takeName: Default Take
+      firstFrame: 60
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: M40A5_ReloadNormal_3
+      takeName: Default Take
+      firstFrame: 140
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: M40A5_ReloadFull_3
+      takeName: Default Take
+      firstFrame: 220
+      lastFrame: 429
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

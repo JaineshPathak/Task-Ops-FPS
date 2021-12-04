@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1435642493486392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4104674183800878}
+  - component: {fileID: 114582022845566056}
+  m_Layer: 0
+  m_Name: Ak47_FP_Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4104674183800878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435642493486392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114582022845566056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435642493486392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc3f2b5c61cb184d859b956c20999cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 3
+  weaponName: AK-47
+  weaponIcon: {fileID: 21300000, guid: 841f10c51b0fe7245bb623b6680d9bcc, type: 3}
+  fpWeaponPrefab: {fileID: 1055729435626312, guid: 5695872b5c761694d8a5532c5b37795c,
+    type: 3}
+  tpWeaponPrefab: {fileID: 1991105892774060, guid: 2e66580e653069448adcf2e5288decc9,
+    type: 3}
+  tpWeaponInfo: {fileID: 0}
+  aimingTransform: {fileID: 0}
+  runSideBobSpeed: 0.17
+  runSideBobAmount: 0.1
+  crouchSideBobSpeed: 0.05
+  crouchSideBobAmount: 0.03
+  aimSideBobSpeed: 0.1
+  aimSideBobAmount: 0.005
+  runVectRotation: {x: 16, y: -42, z: 15}
+  swayAmount: 0.2
+  swaySmoothness: 1
+  maxSwayAmount: 0.21
+  smoothRotation: 1
+  tiltAngle: 20
+  firstPersonAnims:
+  - anim: {fileID: 7400000, guid: 98b4eaf22c36fc7489b8f49ee416cf11, type: 3}
+    animSpeed: 1.3
+  - anim: {fileID: 7400006, guid: 98b4eaf22c36fc7489b8f49ee416cf11, type: 3}
+    animSpeed: 0.3
+  - anim: {fileID: 7400000, guid: f74dc3358e1bc0449b7ad6ae2e443ba8, type: 2}
+    animSpeed: 1.3
+  - anim: {fileID: 7400000, guid: 5bec51da21b071a4ea97df91a4f1f80d, type: 2}
+    animSpeed: 1.5
+  - anim: {fileID: 7400000, guid: a6a81f0b25660024b834914cc759af34, type: 2}
+    animSpeed: 1
+  selectAnimIndex: 0
+  stillAnimIndex: 1
+  fireAnimIndex: 2
+  reloadNormalAnimIndex: 4
+  reloadFullAnimIndex: 4
+  bHasFullReloadAnim: 0
+  selectAnimSpeedMultiplier: 1
+  stillAnimSpeedMultiplier: 1
+  fireAnimSpeedMultiplier: 1.2
+  reloadNormalAnimSpeedMultiplier: 1.1
+  reloadFullAnimSpeedMultiplier: 1.1
+  bulletSpreadFactor: 0.05
+  fireTimer: 0.13256839
+  fireRate: 0.12
+  bodyDamage: 29
+  headShotDamage: 105
+  handDamage: 21
+  legDamage: 23
+  muzzleFlashTimer: 0.02
+  muzzlePoint_TP: {fileID: 0}
+  muzzlePoint_FP: {fileID: 0}
+  defaultAmmo: 30
+  currentAmmo: 0
+  maxAmmo: 120
+  currentMaxAmmo: 0
+  recoil: 0
+  maxRecoilXY: {x: -5, y: 0}
+  recoilSpeed: 10
+  ironSightOffset: {x: -0.27, y: 0.105, z: -0.5}
+  ironSightSpeed: 4
+  ironSightFlag: 0
+  zoomFOV: 45
+  aimScaleOffset: {x: 1, y: 1, z: 1}
+  fireAimAnimIndex: 3
+  zoomSpeed: 3
+  aimScaleSpeed: 2
+  hitLayerMask:
+    serializedVersion: 2
+    m_Bits: 311
+  bulletPower: 20
+  bulletHitWallEffect: {fileID: 1097477609810014, guid: caca5aac394f4c04d9a0c27db5d85ef5,
+    type: 3}
+  pooledBulletsHitWallEffects: []
+  fakeBulletObject: {fileID: 1595617163611894, guid: 0d27095eb1f4ac343b1f78d157e62be4,
+    type: 3}
+  pooledFakeBullets: []
+  recoilXY: {x: 0, y: 0}
+  recoilAdder: 1

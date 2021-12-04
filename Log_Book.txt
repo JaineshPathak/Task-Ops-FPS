@@ -1,0 +1,106 @@
+Game: Snipers Den
+Author: Jainesh Pathak
+
+- 12th October, 2018
+	- Added Photon Bolt Free
+	- Learned basic bolt networking
+	- Basic Character movement
+
+- 13th October, 2018
+	- Completed Bolt Advanced Tutorial
+
+- 14th October, 2018
+	- Added Player Model "Spetsnaz" from Adobe Fuse and animations from mixamo.
+	- Added "M82a1 Sniper" model weapon for third person.
+	- Added PlayerSetup for spawning third person weapon on a weapon bone.
+	- Setup CameraController singleton prefab for spawning camera per player.
+	- Setup basic movement
+	- Setup GameController singleton prefab for checking spawn points
+
+- 15th October, 2018
+	- Added another Player Model "Delta" from Adobe Fuse and animations from "Spetsnaz". (Not yet tested)
+	- Setup rotation
+
+- 16th October, 2018
+	- Fixed getting PlayerCamera per player. Players can now rotate around freely.
+	- Setup Jump code and onGround check. Still needs improvements.
+	
+-18th October, 2018
+	- Player Model "Delta" animations test passed. Animations taken from "Spetsnaz" avatar.
+	- Hide the body for local player. Remote players can see it though.
+	
+-30th October, 2018
+	- Added own temporary main menu UI
+	- Players can now select their own player model and connect
+	
+-2nd November, 2018
+	- Imported FinalIK package
+	- Added AimIK from the FinalIK package to the player models
+	- (FIXME) AimIK works currently client-side and still needs to be synced on the bolt network
+	
+-3rd November, 2018
+	- Player Dropdown menu can now remember the settings
+	- Imported Weapons models and setup prefabs (FP and TP)
+		- SVD Dragunov
+		- M40A5
+	- Setup WeaponCamera inside PlayerCamera to prevent weapon going inside walls
+	- Added new layer - "FP_Weapon"
+	
+-4th November, 2018
+	- Imported "WeaponBobbing" package
+	- Implemented WeaponBobAssistant for weapon bobbing in FP view
+	- Fixed ThirdPerson weapons not seen by other clients (Still needs more testing)
+	- AimIK still needs to be synced
+
+-6th November, 2018
+	- Fixed AimTarget of AimIK which is now synced on the bolt network
+	- Added a "Hand_Mask" avatar mask for "M40a5" hand animations
+	
+-7th November, 2018
+	- Imported "L96_TP" model, created a TP prefab and WeaponObject of it. FP prefab is still left for import.
+	- Fixed "Delta" model textures and materials.
+	- Created FP animation controllers of "M40a5" and "SVD_Dragunov". For now only "Still" animations are added.
+	
+-9th November, 2018
+	- Imported crouching animations
+	- Added new state property - "IsCrouching" from Animation Parameter
+	- Added new Crouch Blend Tree
+	- Fixed Player can move in air
+	
+-11th November, 2018
+	- Imported the animated "L96_FP_Model" first person model
+	- Imported new hands textures and materials
+	
+-12th November, 2018
+	- Created playerUI script
+	- Added simple crosshair in playerUI prefab and spawned per player
+	- Created new singleton prefab - "MiniMap Camera"
+	- Added a minimap for each player
+	- Added health background, icons and text (Scripting still left)
+	
+-13th November, 2018
+	- Created a secondary weapon dropdown in main menu
+	- Created a new PlayerPrefs for secondary weapon
+	- Added a PlayerHealth script in the player prefab with basic takeDamage and respawn stuff
+	- Added a PlayerShoot script in the player prefab
+	- Added new state properties - "Health", "Weapon", "PrimaryWeaponID", "SecondaryWeaponID", "IsDead"
+	- Added players change weapons at a time
+	- Other players can now see what current weapon player is carrying
+	- PlayerShoot accesses current active weapon and plays animation accordingly
+	- (BUG OR DEFECT) Sometimes clients can't connect to server. Server player receives error of "Can't set bolt host info". Still requires more testing
+
+-14th November, 2018
+	- Created new WeaponManager2 script for testing purpose using WeaponStats script for storing weapon data.
+	- STATUS: FAILED
+
+-15th November, 2018
+	- Created new WeaponManager3 script and WeaponBase script for storing weapon data and prefabs which it loads from weapon database prefab
+	- STATUS: PARTIAL SUCCESS (Still needs more testing)
+	- Imported "L96_FP_Model2" with edited fire and reload anim and select animation pushed to the front
+	
+-16th November, 2018
+	- Set "L96_FP_Model2" to Legacy animation from Generic animation. Animation so far works good
+	
+-17th November, 2018
+	- Imported "M40A5_FPModel_2" with new animations and rig as Legacy
+	- Implemeted an array of class objects for animations. So far working, but still requires more testing
