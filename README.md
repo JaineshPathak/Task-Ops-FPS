@@ -7,9 +7,9 @@ Game will include fast paced action with wide variety of guns ranging from pisto
 
 # Current features:
 - Two Assault Rifles: AK47 and SCAR-H
-- Three Sniper Rifles: M40a5, L96, SVD Dragunov
+- Three Sniper Rifles: M40A5, L96, SVD Dragunov
 - Two Player Models: Delta and Spetsnaz
-- Killfeeds
+- Kill feeds
 - Working create room and server browser
 - Settings like Video, Audio and Mouse settings
 - Basic game UI
